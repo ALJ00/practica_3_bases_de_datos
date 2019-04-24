@@ -679,6 +679,30 @@ def comprobarUsuario(usuario):
 
     return comprobacion
 
+def insertarOfertaEmpleoBd(fecha, puesto, descripcion, sueldo):
+    try:
+        # Conexión a base de datos
+        db = pymysql.connect(host="127.0.0.1", user="root", db="erpbicicletasegibide", port=3306)
+        # Preparar el cursor
+        cursor = db.cursor()
+        # Consulta SQL para insertar datos de un empleado
+        sql = "INSERT INTO ofertasempleo(fecha, puesto, descripcion, sueldo) VALUES (%s, %s, %s, %s)"
+        val = (fecha, puesto, descripcion, sueldo)
+        try:
+            # Ejecutar el comando SQL
+            cursor.execute(sql, val)
+            # Aceptar cambios con commit
+            db.commit()
+            print("Insertada correctamente la oferta en la base de datos")
+        except:
+            # Rollback en caso de haber algún error
+            db.rollback()
+            # Desconexión
+        db.close()
+    except Error as e:
+        print("Error base de datos mysql", e)
+
+
 
 
 

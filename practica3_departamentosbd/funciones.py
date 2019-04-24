@@ -1069,7 +1069,7 @@ def opcionMenuAdministracion():
 
 # Funcion para generar una oferta de trabajo
 def generarOfertaTrabajo():
-    fecha = time.strftime("%d/%m/%y")
+    fecha = str(time.strftime("%d/%m/%y"))
     puesto = input("Puesto de trabajo: ")
     descripcion = input("Descripción de oferta: ")
     remuneracion = input("Remuneración: ")
@@ -1090,6 +1090,7 @@ def generarOfertaTrabajo():
             fichero.write(l + ",")
         fichero.close()
         print("Creada la oferta de empleo {} correctamente".format(puesto))
+        insertarOfertaEmpleoBd(fecha, puesto, descripcion, remuneracion)
 
 # Funcion que busca una factura
 def buscarFacturaYcontabilizar(numero):
