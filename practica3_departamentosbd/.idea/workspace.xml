@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="169f6c9f-c8f8-4db9-b972-d7a89a03d74c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/clases.py" beforeDir="false" afterPath="$PROJECT_DIR$/clases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clases.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
@@ -60,12 +60,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="385">
-                <caret line="120" column="126" selection-start-line="120" selection-start-column="126" selection-end-line="120" selection-end-column="126" />
+              <first_editor relative-caret-position="-155">
+                <caret line="86" selection-start-line="86" selection-end-line="86" />
               </first_editor>
               <second_editor />
             </state>
@@ -202,12 +202,12 @@
         <option value="$PROJECT_DIR$/test4.py" />
         <option value="$PROJECT_DIR$/creacionTablas.py" />
         <option value="$PROJECT_DIR$/funciones.py" />
-        <option value="$PROJECT_DIR$/../README.md" />
         <option value="$PROJECT_DIR$/clases.py" />
+        <option value="$PROJECT_DIR$/../README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-38" />
     <option name="y" value="216" />
     <option name="width" value="1311" />
@@ -226,21 +226,6 @@
             <path>
               <item name="practica3_departamentosbd" type="b2602c69:ProjectViewProjectNode" />
               <item name="practica3_departamentosbd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practica3_departamentosbd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practica3_departamentosbd" type="462c0819:PsiDirectoryNode" />
-              <item name="contabilidad" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practica3_departamentosbd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practica3_departamentosbd" type="462c0819:PsiDirectoryNode" />
-              <item name="facturas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practica3_departamentosbd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practica3_departamentosbd" type="462c0819:PsiDirectoryNode" />
-              <item name="reparaciones" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -420,12 +405,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.19717261" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.18377976" />
       <window_info id="Structure" order="1" sideWeight="0.6111111" side_tool="true" weight="0.14362109" />
       <window_info id="Favorites" order="2" sideWeight="0.5020243" side_tool="true" weight="0.14362109" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4234694" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.64115644" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.05102041" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.15306123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -655,16 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="385">
-            <caret line="120" column="126" selection-start-line="120" selection-start-column="126" selection-end-line="120" selection-end-column="126" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/creacionTablas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-99">
@@ -715,6 +690,16 @@
             <element signature="e#18121#19130#0" />
             <element signature="e#19353#20603#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-155">
+            <caret line="86" selection-start-line="86" selection-end-line="86" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -85,10 +85,6 @@ departamento es.
 ![](practica3_departamentosbd/imagenes/login.PNG)
 
 
-## Materia trabajada
-
-
-
 ## Documentación
 
 - [Manejo de archivos y directorios en python](https://ricardogeek.com/manejo-de-archivos-y-directorios-en-python/)
@@ -120,4 +116,4 @@ Para más detalle se recomienda ver los siguientes vídeos tutorial.
 
 [Vídeo tutorial funcionamiento programa y generación de facturas](https://www.youtube.com/watch?v=vnU04C6NoTg&feature=youtu.be)
 
-[Vídeo tutorial funcionamiento de la base de datos](https://youtu.be/ZZ28fj-F_k0)
+[Vídeo tutorial funcionamiento de la base de datos](https://youtu.be/Hji3KIeqnXM)
