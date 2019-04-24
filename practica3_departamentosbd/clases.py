@@ -263,6 +263,7 @@ def insertarFacturaVentaBD(fecha, c, dniCliente, usuarioSistema):
 # funcion para comprobar usuario
 def comprobarUsuarioContrasenyaBd(usuario, password, departamento):
     comprobacion = False
+
     try:
 
         # Conexión a base de datos
@@ -288,6 +289,7 @@ def comprobarUsuarioContrasenyaBd(usuario, password, departamento):
 
                 if n == usuario and t == password and departamento == e:
                     comprobacion = True
+
                     print("Usuario correcto.")
                 else:
                     print("Error, usuario o password incorrectos.")
@@ -598,4 +600,88 @@ def insertarOfertaVentaBD(producto, descripcion, descuento):
         db.close()
     except Error as e:
         print("Error base de datos mysql", e)
+
+# funcion para ver las facturas emitidas por un usuario
+def verFacturasDeUsuario(usuario):
+
+    try:
+
+        # Conexión a base de datos
+        db = pymysql.connect(host="127.0.0.1", user="root", db="erpbicicletasegibide", port=3306)
+
+        # Preparar el cursor
+        cursor = db.cursor()
+
+        sql = "SELECT f.factura, t.factura FROM  facturas f, reparaciones t WHERE  %s = f.usuario and %s = t.usuario"
+        val = (usuario, usuario)
+
+
+        try:
+            # Ejecutar comando SQL
+            cursor.execute(sql, val)
+            # Conseguir los datos y guardarlos en una lista de listas
+            results = cursor.fetchall()
+            for row in results:
+                id = row[0]
+                n = row[1]
+
+                # Now print fetched result
+                print("Usuario: " + usuario, end="/ FacturaVenta: " + id + " / Factura Taller: " + n )
+                print("")
+                print("-------------------------------------------------------------------------------")
+
+
+        except:
+            print("No hay facturas vinculadas al usuario introducido")
+
+        # disconnect from server
+        db.close()
+
+    except Error as e:
+        print("Error base de datos mysql", e)
+
+# funcion para ver si exite un usuario
+def comprobarUsuario(usuario):
+    comprobacion = False
+    try:
+
+        # Conexión a base de datos
+        db = pymysql.connect(host="127.0.0.1", user="root", db="erpbicicletasegibide", port=3306)
+
+        # Preparar el cursor
+        cursor = db.cursor()
+
+        sql = "SELECT usuario FROM usuarios where usuario = '%s'" % usuario
+        try:
+            # Ejecutar comando SQL
+            cursor.execute(sql)
+
+            # Conseguir los datos y guardarlos en una lista de listas
+            results = cursor.fetchall()
+
+            for row in results:
+                n = row[0]
+
+                if n == usuario :
+                    comprobacion = True
+                else:
+                    print("Error, usuario o password incorrectos.")
+
+
+        except:
+            print("Error: no se han podido recuperar datos")
+
+        # disconnect from server
+        db.close()
+
+    except Error as e:
+        print("Error de base de datos mysql", e)
+
+    return comprobacion
+
+
+
+
+
+
 

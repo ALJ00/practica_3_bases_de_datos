@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="169f6c9f-c8f8-4db9-b972-d7a89a03d74c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/share/doc/networkx-2.2/examples/javascript/force/force.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/share/doc/networkx-2.2/examples/javascript/force/force.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creacionTablasServidor.py" beforeDir="false" afterPath="$PROJECT_DIR$/creacionTablasServidor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clases.py" beforeDir="false" afterPath="$PROJECT_DIR$/clases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/funciones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marketing/directorioContactos/contactos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/marketing/directorioContactos/contactos.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="263" column="67" selection-start-line="263" selection-start-column="67" selection-end-line="263" selection-end-column="67" />
+            <state relative-caret-position="70">
+              <caret line="306" column="23" lean-forward="true" selection-start-line="306" selection-start-column="23" selection-end-line="306" selection-end-column="23" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#134#358#0" />
@@ -32,10 +33,11 @@
                 <element signature="e#1670#1774#0" />
                 <element signature="e#1856#2732#0" />
                 <element signature="e#2814#3607#0" />
+                <element signature="e#3695#4778#0" />
                 <element signature="e#4856#5911#0" />
                 <element signature="e#6001#6794#0" />
                 <element signature="e#6916#7686#0" />
-                <element signature="e#7793#8931#0" />
+                <element signature="e#7793#9028#0" />
                 <element signature="e#9029#9937#0" />
                 <element signature="e#10065#10839#0" />
                 <element signature="e#10921#11780#0" />
@@ -45,17 +47,19 @@
                 <element signature="e#15036#15938#0" />
                 <element signature="e#16014#16997#0" />
                 <element signature="e#17114#18019#0" />
+                <element signature="e#18121#19130#0" />
+                <element signature="e#19353#20603#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="212">
-                <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+              <first_editor relative-caret-position="-153">
+                <caret column="51" selection-start-column="51" selection-end-column="51" />
               </first_editor>
               <second_editor />
             </state>
@@ -86,15 +90,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/funciones.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="1140" selection-start-line="1140" selection-end-line="1140" />
+            <state relative-caret-position="239">
+              <caret line="323" column="44" selection-start-line="323" selection-start-column="44" selection-end-line="323" selection-end-column="44" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <element signature="e#350#809#0" />
                 <element signature="e#923#1979#0" />
                 <element signature="e#2036#3894#0" />
                 <element signature="e#4010#4349#0" />
-                <element signature="e#4441#5689#0" />
+                <element signature="e#4432#5817#0" />
+                <element signature="e#5270#5316#0" />
                 <element signature="e#5767#6192#0" />
                 <element signature="e#6265#6663#0" />
                 <element signature="e#6742#7131#0" />
@@ -102,8 +107,38 @@
                 <element signature="e#7709#8064#0" />
                 <element signature="e#8155#9117#0" />
                 <element signature="e#9242#9888#0" />
-                <element signature="e#10029#10395#0" />
+                <element signature="e#10172#10564#0" />
                 <element signature="e#10486#13294#0" />
+                <element signature="e#13515#13675#0" />
+                <element signature="e#13743#13873#0" />
+                <element signature="e#13832#14081#0" />
+                <element signature="e#14163#14402#0" />
+                <element signature="e#14520#15459#0" />
+                <element signature="e#15541#18858#0" />
+                <element signature="e#18980#19321#0" />
+                <element signature="e#19413#20147#0" />
+                <element signature="e#20221#20464#0" />
+                <element signature="e#20541#21087#0" />
+                <element signature="e#21173#21359#0" />
+                <element signature="e#21435#21912#0" />
+                <element signature="e#22000#23635#0" />
+                <element signature="e#23696#24372#0" />
+                <element signature="e#24462#24825#0" />
+                <element signature="e#24890#25146#0" />
+                <element signature="e#25288#26217#0" />
+                <element signature="e#26305#27235#0" />
+                <element signature="e#27342#28286#0" />
+                <element signature="e#28370#29234#0" />
+                <element signature="e#29306#29547#0" />
+                <element signature="e#29620#29885#0" />
+                <element signature="e#29988#30620#0" />
+                <element signature="e#30715#31296#0" />
+                <element signature="e#31397#32195#0" />
+                <element signature="e#32274#32966#0" />
+                <element signature="e#33044#34299#0" />
+                <element signature="e#34403#41776#0" />
+                <element signature="e#41869#42079#0" />
+                <element signature="e#42156#42799#0" />
               </folding>
             </state>
           </provider>
@@ -160,13 +195,13 @@
         <option value="$PROJECT_DIR$/creacionTablasServidor.py" />
         <option value="$PROJECT_DIR$/test4.py" />
         <option value="$PROJECT_DIR$/creacionTablas.py" />
-        <option value="$PROJECT_DIR$/clases.py" />
-        <option value="$PROJECT_DIR$/funciones.py" />
         <option value="$PROJECT_DIR$/../README.md" />
+        <option value="$PROJECT_DIR$/funciones.py" />
+        <option value="$PROJECT_DIR$/clases.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-38" />
     <option name="y" value="216" />
     <option name="width" value="1311" />
@@ -190,11 +225,6 @@
               <item name="practica3_departamentosbd" type="b2602c69:ProjectViewProjectNode" />
               <item name="practica3_departamentosbd" type="462c0819:PsiDirectoryNode" />
               <item name="contabilidad" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practica3_departamentosbd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practica3_departamentosbd" type="462c0819:PsiDirectoryNode" />
-              <item name="imagenes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practica3_departamentosbd" type="b2602c69:ProjectViewProjectNode" />
@@ -244,6 +274,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.test">
+    <configuration name="clases" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Practica2_Funciones_departamentos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clases.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="creacionTablas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Practica2_Funciones_departamentos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,27 +358,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Practica2_Funciones_departamentos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Practica2_Funciones_departamentos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -352,10 +382,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.clases" />
         <item itemvalue="Python.creacionTablas" />
         <item itemvalue="Python.test4" />
         <item itemvalue="Python.creacionTablasServidor" />
-        <item itemvalue="Python.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -382,15 +412,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.14211309" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.18229167" />
       <window_info id="Structure" order="1" sideWeight="0.6111111" side_tool="true" weight="0.14362109" />
       <window_info id="Favorites" order="2" sideWeight="0.5020243" side_tool="true" weight="0.14362109" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4234694" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14965986" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5544218" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.15306123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -584,10 +613,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-153">
+            <caret column="51" selection-start-column="51" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/funciones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="323" column="44" selection-start-line="323" selection-start-column="44" selection-end-line="323" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#350#809#0" />
+            <element signature="e#923#1979#0" />
+            <element signature="e#2036#3894#0" />
+            <element signature="e#4010#4349#0" />
+            <element signature="e#4432#5817#0" />
+            <element signature="e#5270#5316#0" />
+            <element signature="e#5767#6192#0" />
+            <element signature="e#6265#6663#0" />
+            <element signature="e#6742#7131#0" />
+            <element signature="e#7246#7630#0" />
+            <element signature="e#7709#8064#0" />
+            <element signature="e#8155#9117#0" />
+            <element signature="e#9242#9888#0" />
+            <element signature="e#10172#10564#0" />
+            <element signature="e#10486#13294#0" />
+            <element signature="e#13515#13675#0" />
+            <element signature="e#13743#13873#0" />
+            <element signature="e#13832#14081#0" />
+            <element signature="e#14163#14402#0" />
+            <element signature="e#14520#15459#0" />
+            <element signature="e#15541#18858#0" />
+            <element signature="e#18980#19321#0" />
+            <element signature="e#19413#20147#0" />
+            <element signature="e#20221#20464#0" />
+            <element signature="e#20541#21087#0" />
+            <element signature="e#21173#21359#0" />
+            <element signature="e#21435#21912#0" />
+            <element signature="e#22000#23635#0" />
+            <element signature="e#23696#24372#0" />
+            <element signature="e#24462#24825#0" />
+            <element signature="e#24890#25146#0" />
+            <element signature="e#25288#26217#0" />
+            <element signature="e#26305#27235#0" />
+            <element signature="e#27342#28286#0" />
+            <element signature="e#28370#29234#0" />
+            <element signature="e#29306#29547#0" />
+            <element signature="e#29620#29885#0" />
+            <element signature="e#29988#30620#0" />
+            <element signature="e#30715#31296#0" />
+            <element signature="e#31397#32195#0" />
+            <element signature="e#32274#32966#0" />
+            <element signature="e#33044#34299#0" />
+            <element signature="e#34403#41776#0" />
+            <element signature="e#41869#42079#0" />
+            <element signature="e#42156#42799#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/clases.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="263" column="67" selection-start-line="263" selection-start-column="67" selection-end-line="263" selection-end-column="67" />
+        <state relative-caret-position="70">
+          <caret line="306" column="23" lean-forward="true" selection-start-line="306" selection-start-column="23" selection-end-line="306" selection-end-column="23" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#134#358#0" />
@@ -598,10 +692,11 @@
             <element signature="e#1670#1774#0" />
             <element signature="e#1856#2732#0" />
             <element signature="e#2814#3607#0" />
+            <element signature="e#3695#4778#0" />
             <element signature="e#4856#5911#0" />
             <element signature="e#6001#6794#0" />
             <element signature="e#6916#7686#0" />
-            <element signature="e#7793#8931#0" />
+            <element signature="e#7793#9028#0" />
             <element signature="e#9029#9937#0" />
             <element signature="e#10065#10839#0" />
             <element signature="e#10921#11780#0" />
@@ -611,41 +706,9 @@
             <element signature="e#15036#15938#0" />
             <element signature="e#16014#16997#0" />
             <element signature="e#17114#18019#0" />
+            <element signature="e#18121#19130#0" />
+            <element signature="e#19353#20603#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/funciones.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="1140" selection-start-line="1140" selection-end-line="1140" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#350#809#0" />
-            <element signature="e#923#1979#0" />
-            <element signature="e#2036#3894#0" />
-            <element signature="e#4010#4349#0" />
-            <element signature="e#4441#5689#0" />
-            <element signature="e#5767#6192#0" />
-            <element signature="e#6265#6663#0" />
-            <element signature="e#6742#7131#0" />
-            <element signature="e#7246#7630#0" />
-            <element signature="e#7709#8064#0" />
-            <element signature="e#8155#9117#0" />
-            <element signature="e#9242#9888#0" />
-            <element signature="e#10029#10395#0" />
-            <element signature="e#10486#13294#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="212">
-            <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

@@ -140,10 +140,9 @@ def mostrarSubmenuGestionUsuarios():
     mi_string = color.BLUE + " Submenú gestión de usuarios ".capitalize().upper() + color.END
     print(mi_string.center(50, "="))
     print("Selecciona opción:\n"
-          "a) Nuevo usuario\n"
-          "b) Borrar usuario\n"
-          "c) Mostrar usuarios\n"
-          "d) Salir del submenú")
+          "a) Ver facturas vinculadas a un usuario\n"
+          "b) Mostrar usuarios\n"
+          "c) Salir del submenú")
     opcion = input("Opción: ")
     return opcion
 
@@ -155,49 +154,47 @@ def opcionSubmenuGestionUsuarios():
         # Recojo el operando seleccionado
         operando = mostrarSubmenuGestionUsuarios()
 
-        # Si es a doy de alta al usuario
+        # Si es a muestro las facturas emitidas por un usuario
         if operando == "a":
 
             u = input("Usuario: ")
-            c = input("Password: ")
+            #c = input("Password: ")
 
             # alta en csv
             # altaUsuario(u, c)
 
             # recojo el departamento
-            dep = opcionDepartamento()
+            #dep = opcionDepartamento()
 
             # creo un objeto UsarioBd
-            nuevoUusario = UsuarioBd(u, c, dep)
+            #nuevoUusario = UsuarioBd(u, c, dep)
 
             # lo inseto en la Bd
-            insertarUsuarioBD(nuevoUusario)
+            #insertarUsuarioBD(nuevoUusario)
+
+            if comprobarUsuario(u):
+                verFacturasDeUsuario(u)
 
 
 
-        # Si es b, borro al usuario
+        # Si es b, muestro los usuarios de la bd
         elif operando == "b":
-
-            user = input("Usuario: ")
-
-
-
-            eliminarUsuarioBd(user)
-
-
-
+            recuperarUsuariosBd()
+            '''#user = input("Usuario: ")
+            # eliminarUsuarioBd(user)'''
 
 
         # Si es la opcion c muestro todos los usuarios
+        #elif operando == "c":
+         #   list = leer_csv("usuarios.csv")
+          #  for i in list:
+           #     print("Usuario: " + i[0], " Contraseña: " + i[1])
+
+            #recuperarUsuariosBd()
+
+
+        # Si es la opcion c salgo del menu
         elif operando == "c":
-            '''list = leer_csv("usuarios.csv")
-            for i in list:
-                print("Usuario: " + i[0], " Contraseña: " + i[1])'''
-
-            recuperarUsuariosBd()
-
-        # Si es la opcion d salgo del menu
-        elif operando == "d":
             break
 
         # En caso de introducir un dato erroneo se retorna al inicio del bucle
