@@ -1,0 +1,9 @@
+#!c:\users\jose\desktop\practica2_funciones_departamentos\venv\scripts\python.exe
+"""PAR/REC to NIfTI converter
+"""
+
+from nibabel.cmdline.parrec2nii import main
+
+
+if __name__ == '__main__':
+    main()
