@@ -612,7 +612,7 @@ def verFacturasDeUsuario(usuario):
         # Preparar el cursor
         cursor = db.cursor()
 
-        sql = "SELECT f.factura, t.factura FROM  facturas f, reparaciones t WHERE  %s = f.usuario and %s = t.usuario"
+        sql = "SELECT f.factura, t.factura FROM facturas f, reparaciones t WHERE  %s = f.usuario and %s = t.usuario"
         val = (usuario, usuario)
 
 
