@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="169f6c9f-c8f8-4db9-b972-d7a89a03d74c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-    </list>
+    <list default="true" id="169f6c9f-c8f8-4db9-b972-d7a89a03d74c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -405,7 +403,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.18377976" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.108630955" />
       <window_info id="Structure" order="1" sideWeight="0.6111111" side_tool="true" weight="0.14362109" />
       <window_info id="Favorites" order="2" sideWeight="0.5020243" side_tool="true" weight="0.14362109" />
       <window_info anchor="bottom" id="Message" order="0" />
