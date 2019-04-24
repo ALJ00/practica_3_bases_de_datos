@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="169f6c9f-c8f8-4db9-b972-d7a89a03d74c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clases.py" beforeDir="false" afterPath="$PROJECT_DIR$/clases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/funciones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marketing/directorioContactos/contactos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/marketing/directorioContactos/contactos.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="306" column="23" lean-forward="true" selection-start-line="306" selection-start-column="23" selection-end-line="306" selection-end-column="23" />
+            <state relative-caret-position="-394">
+              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#134#358#0" />
@@ -55,11 +53,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-153">
-                <caret column="51" selection-start-column="51" selection-end-column="51" />
+              <first_editor relative-caret-position="357">
+                <caret line="120" column="126" selection-start-line="120" selection-start-column="126" selection-end-line="120" selection-end-column="126" />
               </first_editor>
               <second_editor />
             </state>
@@ -69,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/creacionTablas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-37">
+            <state relative-caret-position="33">
               <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -90,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/funciones.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="782">
               <caret line="323" column="44" selection-start-line="323" selection-start-column="44" selection-end-line="323" selection-end-column="44" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -195,9 +202,9 @@
         <option value="$PROJECT_DIR$/creacionTablasServidor.py" />
         <option value="$PROJECT_DIR$/test4.py" />
         <option value="$PROJECT_DIR$/creacionTablas.py" />
-        <option value="$PROJECT_DIR$/../README.md" />
         <option value="$PROJECT_DIR$/funciones.py" />
         <option value="$PROJECT_DIR$/clases.py" />
+        <option value="$PROJECT_DIR$/../README.md" />
       </list>
     </option>
   </component>
@@ -229,7 +236,7 @@
             <path>
               <item name="practica3_departamentosbd" type="b2602c69:ProjectViewProjectNode" />
               <item name="practica3_departamentosbd" type="462c0819:PsiDirectoryNode" />
-              <item name="marketing" type="462c0819:PsiDirectoryNode" />
+              <item name="facturas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practica3_departamentosbd" type="b2602c69:ProjectViewProjectNode" />
@@ -414,12 +421,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.18229167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989858" visible="true" weight="0.19791667" />
       <window_info id="Structure" order="1" sideWeight="0.6111111" side_tool="true" weight="0.14362109" />
       <window_info id="Favorites" order="2" sideWeight="0.5020243" side_tool="true" weight="0.14362109" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.4234694" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5544218" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.05102041" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.15306123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,13 +535,6 @@
     <entry file="file://$PROJECT_DIR$/imagenes/BikeLogo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utilidades/bicicletasegibide-firebase-adminsdk-81ulb-51089cb25b.json" />
     <entry file="file://$PROJECT_DIR$/firebaseTest.py" />
     <entry file="file://$PROJECT_DIR$/reparaciones/orden2.csv" />
@@ -560,14 +560,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testBaseDatos.py" />
-    <entry file="file://$PROJECT_DIR$/bibliografia.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test2.py" />
     <entry file="file://$PROJECT_DIR$/creacionTablasServidor.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -594,9 +586,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bibliografia.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-394">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#134#358#0" />
+            <element signature="e#421#579#0" />
+            <element signature="e#640#803#0" />
+            <element signature="e#863#1204#0" />
+            <element signature="e#1270#1607#0" />
+            <element signature="e#1670#1774#0" />
+            <element signature="e#1856#2732#0" />
+            <element signature="e#2814#3607#0" />
+            <element signature="e#3695#4778#0" />
+            <element signature="e#4856#5911#0" />
+            <element signature="e#6001#6794#0" />
+            <element signature="e#6916#7686#0" />
+            <element signature="e#7793#9028#0" />
+            <element signature="e#9029#9937#0" />
+            <element signature="e#10065#10839#0" />
+            <element signature="e#10921#11780#0" />
+            <element signature="e#11870#12815#0" />
+            <element signature="e#12897#13898#0" />
+            <element signature="e#13977#14949#0" />
+            <element signature="e#15036#15938#0" />
+            <element signature="e#16014#16997#0" />
+            <element signature="e#17114#18019#0" />
+            <element signature="e#18121#19130#0" />
+            <element signature="e#19353#20603#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/creacionTablas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
+        <state relative-caret-position="33">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
@@ -613,19 +654,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-153">
-            <caret column="51" selection-start-column="51" selection-end-column="51" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/funciones.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="782">
           <caret line="323" column="44" selection-start-line="323" selection-start-column="44" selection-end-line="323" selection-end-column="44" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -678,37 +709,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="306" column="23" lean-forward="true" selection-start-line="306" selection-start-column="23" selection-end-line="306" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#134#358#0" />
-            <element signature="e#421#579#0" />
-            <element signature="e#640#803#0" />
-            <element signature="e#863#1204#0" />
-            <element signature="e#1270#1607#0" />
-            <element signature="e#1670#1774#0" />
-            <element signature="e#1856#2732#0" />
-            <element signature="e#2814#3607#0" />
-            <element signature="e#3695#4778#0" />
-            <element signature="e#4856#5911#0" />
-            <element signature="e#6001#6794#0" />
-            <element signature="e#6916#7686#0" />
-            <element signature="e#7793#9028#0" />
-            <element signature="e#9029#9937#0" />
-            <element signature="e#10065#10839#0" />
-            <element signature="e#10921#11780#0" />
-            <element signature="e#11870#12815#0" />
-            <element signature="e#12897#13898#0" />
-            <element signature="e#13977#14949#0" />
-            <element signature="e#15036#15938#0" />
-            <element signature="e#16014#16997#0" />
-            <element signature="e#17114#18019#0" />
-            <element signature="e#18121#19130#0" />
-            <element signature="e#19353#20603#0" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="357">
+            <caret line="120" column="126" selection-start-line="120" selection-start-column="126" selection-end-line="120" selection-end-column="126" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -110,14 +110,14 @@ departamento es.
 
 ## Conclusión
 
-Este manual es creado como orientación para la correcta utilización del programa. Como se ha
+Este manual está creado como orientación para la correcta utilización del programa. Como se ha
 podido leer se encarga de simular el flujo de información en un sistema de gestión empresarial utilizando base de datos
 y archivos.
 
-Para más detalle se recomienda ver el siguiente vídeo tutorial.
+Para más detalle se recomienda ver los siguientes vídeos tutorial.
 
 ## Video tutorial del funcionamiento del programa
 
-[Descargar video tutorial](Practica2_Funciones_departamentos/videos/videotutorialconsola.mp4)
+[Vídeo tutorial funcionamiento programa y generación de facturas](https://www.youtube.com/watch?v=vnU04C6NoTg&feature=youtu.be)
 
-[Ver video tutorial](https://youtu.be/ZZ28fj-F_k0)
+[Vídeo tutorial funcionamiento de la base de datos](https://youtu.be/ZZ28fj-F_k0)
